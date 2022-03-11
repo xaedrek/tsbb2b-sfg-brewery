@@ -137,11 +137,12 @@
                             <version>${org.projectlombok.version}</version>
                         </path>
                     </annotationProcessorPaths>
-                    <compilerArgs>
-                        <compilerArg>
-                            -Amapstruct.defaultComponentModel=spring
-                        </compilerArg>
-                    </compilerArgs>
+
+<!--                    <compilerArgs>-->
+<!--                        <compilerArg>-->
+<!--                            -Amapstruct.defaultComponentModel=spring-->
+<!--                        </compilerArg>-->
+<!--                    </compilerArgs>-->
                 </configuration>
             </plugin>
         </plugins>
